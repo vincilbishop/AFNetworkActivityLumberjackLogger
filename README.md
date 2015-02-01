@@ -1,8 +1,8 @@
-# AFNetworkActivityLogger
+# AFNetworkActivityLumberjackLogger
 
-`AFNetworkActivityLogger` is an extension for [AFNetworking](http://github.com/AFNetworking/AFNetworking/) 2.0 that logs network requests as they are sent and received.
+`AFNetworkActivityLumberjackLogger` is an extension for [AFNetworking](http://github.com/AFNetworking/AFNetworking/) 2.0 that logs network requests as they are sent and received. It is forked from [AFNetworkActivity](https://github.com/AFNetworking/AFNetworkActivityLogger) but now with CocoaLumberjack logging.
 
-> `AFNetworkActivityLogger` listens for `AFNetworkingOperationDidStartNotification` / `AFNetworkingOperationDidFinishNotification` and `AFNetworkingTaskDidStartNotification` / `AFNetworkingTaskDidFinishNotification` notifications, which are posted by AFNetworking as request operations and session tasks are started and finish. For further customization of logging output, users are encouraged to implement desired functionality by listening for these notifications.
+> `AFNetworkActivityLumberjackLogger` listens for `AFNetworkingOperationDidStartNotification` / `AFNetworkingOperationDidFinishNotification` and `AFNetworkingTaskDidStartNotification` / `AFNetworkingTaskDidFinishNotification` notifications, which are posted by AFNetworking as request operations and session tasks are started and finish. For further customization of logging output, users are encouraged to implement desired functionality by listening for these notifications.
 
 ## Usage
 
@@ -27,11 +27,11 @@ If the default logging level is too verbose—say, if you only want to know when
 
 ## Contact
 
-Mattt Thompson
+Sohayb Hassoun
 
-- http://github.com/mattt
-- http://twitter.com/mattt
-- m@mattt.me
+- http://github.com/sohayb
+- http://twitter.com/sohaybh
+- sohayb.hassoun@gmail.com
 
 ## License
 
