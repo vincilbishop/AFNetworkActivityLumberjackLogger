@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name     = 'AFNetworkActivityLumberjackLogger'
   s.version  = '2.0.3'
   s.license  = 'MIT'
-  s.summary  = 'AFNetworking 2.0 Extension for Network Request Logging with Support of CocoaLumberjack'
+  s.summary  = 'AFNetworking 2.0 Extension for Network Request Logging with Support of CocoaLumberjack forked from AFNetworkActivityLogger by Matt Thompson'
   s.homepage = 'https://github.com/sohayb/AFNetworkActivityLogger'
-  s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
+  s.authors  = { 'Sohayb Hassoun' => 'sohayb.hassoun@gmail.com' }
   s.source   = { :git => 'https://github.com/sohayb/AFNetworkActivityLogger.git', :tag => '2.0.3' }
   s.source_files = 'AFNetworkActivityLogger'
   s.requires_arc = true
