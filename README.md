@@ -35,4 +35,4 @@ Sohayb Hassoun
 
 ## License
 
-AFNetworkActivityLogger is available under the MIT license. See the LICENSE file for more info.
+AFNetworkActivityLumberjackLogger is available under the MIT license as the orginal AFNetworkActivityLogger. See the LICENSE file for more info.
