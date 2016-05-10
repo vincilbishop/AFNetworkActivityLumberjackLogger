@@ -27,6 +27,8 @@
 #import <objc/runtime.h>
 #import "DDLog.h"
 
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+
 static NSURLRequest * AFNetworkRequestFromNotification(NSNotification *notification) {
     NSURLRequest *request = nil;
     if ([[notification object] isKindOfClass:[AFURLConnectionOperation class]]) {
